@@ -1,8 +1,10 @@
 # Project Name
 TARGET = MultiEffect
 
+USE_DAISYSP_LGPL = 1
+
 # Library Locations
-LIBDAISY_DIR = ../../libdaisy
+LIBDAISY_DIR = ../../libDaisy
 DAISYSP_DIR = ../../DaisySP
 CMSIS_DIR = $(LIBDAISY_DIR)/Drivers/CMSIS
 
